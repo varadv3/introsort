@@ -22,7 +22,7 @@ int main() {
         original_arr[i] = rand();
     }
 
-    printf("Executing the In-built sort: ");
+    printf("Executing the In-built Sort: ");
     memcpy(arr, original_arr, sizeof(int) * size);
     begin = clock();
     qsort(arr, size, sizeof(int), cmp);
